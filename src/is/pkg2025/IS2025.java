@@ -4,6 +4,8 @@
  */
 package is.pkg2025;
 
+import interfas.Suma;
+
 /**
  *
  * @author Frank
@@ -14,7 +16,8 @@ public class IS2025 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("HOla mundo ");
+        Suma s = new Suma();
+        s.setVisible(true);
     }
     
 }
